@@ -48,6 +48,7 @@ This project requires Python and the following Python libraries installed:
 - ADASYN
 
 ## <a name="p6">Results</a>
+The Accuracy, ROC Value and Threshold of the the models trained are provided in [Results.csv](https://github.com/Marisha18/Credit-Card-Fraud-Detection/blob/main/Results.csv).
 ## <a name="p7">Conclusion</a>
 We can see that the fraudulent transctions are mostly densed in the lower range of amount, whereas the non-fraudulent transctions are spreaded throughout low to high range of amount.
 
