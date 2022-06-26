@@ -49,6 +49,7 @@ This project requires Python and the following Python libraries installed:
 
 ## <a name="p6">Results</a>
 The Accuracy, ROC Value and Threshold of the the models trained are provided in [Results.csv](https://github.com/Marisha18/Credit-Card-Fraud-Detection/blob/main/Results.csv).
+The best model was XGBoost model with Random Oversampling with StratifiedKFold CV and the trained model post hyperparameter tuning is saved in [final_model.pkl](https://github.com/Marisha18/Credit-Card-Fraud-Detection/blob/main/final_model.pkl).
 ## <a name="p7">Conclusion</a>
 We can see that the fraudulent transctions are mostly densed in the lower range of amount, whereas the non-fraudulent transctions are spreaded throughout low to high range of amount.
 
@@ -58,8 +59,8 @@ Given the class imbalance ratio, the accuracy is measured using the Area Under a
 
 In the oversample cases, of all the models we build found that the **XGBoost model with Random Oversampling with StratifiedKFold CV** gave us the best accuracy and ROC on oversampled data. Post that we performed hyperparameter tuning and achieved the following metrics : 
 
-**XGboost roc_value: 0.9815403079438694<br>
-XGBoost threshold: 0.01721232570707798**
+**XGboost roc_value: 0.9837031325200886<br>
+XGBoost threshold: 0.015200022608041763**
 
 However, of all the models we created we found **Logistic Regression with L2 Regularisation for StratifiedKFold cross validation** (without any oversampling or undersampling) gave us the best result.
 
