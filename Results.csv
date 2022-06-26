@@ -1,0 +1,38 @@
+Methodology,Model,Accuracy,roc_value,threshold
+RepeatedKFold Cross Validation,Logistic Regression with L2 Regularisation,0.9991397622934991,0.9807420780418753,0.0019448662249209909
+RepeatedKFold Cross Validation,Logistic Regression with L1 Regularisation,0.9991397622934991,0.8868965344696551,0.04978630938077049
+RepeatedKFold Cross Validation,KNN,0.999280209265989,0.8657842151140867,0.2
+RepeatedKFold Cross Validation,Tree Model with gini criteria,0.9992626533944278,0.8761303874246529,1.0
+RepeatedKFold Cross Validation,Tree Model with entropy criteria,0.9993679886237953,0.8864748374127598,1.0
+RepeatedKFold Cross Validation,Random Forest,0.9995962149540913,0.9363193932783738,0.03
+RepeatedKFold Cross Validation,XGBoost,0.9995786590825302,0.9797867329682252,0.0018993790727108717
+RepeatedKFold Cross Validation,SVM,0.998419971559488,0.48742124453933133,0.004347556668859262
+StratifiedKFold Cross Validation,Logistic Regression with L2 Regularisation,0.998771088990713,0.9833310423513443,0.001571409441427542
+StratifiedKFold Cross Validation,Logistic Regression with L1 Regularisation,0.9987535331191517,0.8890758561483437,0.021087492766199874
+StratifiedKFold Cross Validation,KNN,0.9991924299081828,0.8057457828285457,0.2
+StratifiedKFold Cross Validation,Tree Model with gini criteria,0.998841312476958,0.8262492341959029,1.0
+StratifiedKFold Cross Validation,Tree Model with entropy criteria,0.9990168711925703,0.8212439170839185,1.0
+StratifiedKFold Cross Validation,Random Forest,0.9994382121100402,0.9464721329855826,0.01
+StratifiedKFold Cross Validation,XGBoost,0.9993855444953564,0.9781480694558744,0.002443221863359213
+StratifiedKFold Cross Validation,SVM,0.9982795245869981,0.40177034885494567,0.0017872783997092982
+Random Oversampling with StratifiedKFold CV ,Logistic Regression with L2 Regularisation,0.9855515177050965,0.9804470967994325,0.32928353330172255
+Random Oversampling with StratifiedKFold CV ,Logistic Regression with L1 Regularisation,0.9982795245869981,0.5,1.5
+Random Oversampling with StratifiedKFold CV ,KNN,0.9980688541282632,0.805604465728046,0.2
+Random Oversampling with StratifiedKFold CV ,Tree Model with gini criteria,0.9989993153210092,0.8110486285152966,1.0
+Random Oversampling with StratifiedKFold CV ,Tree Model with entropy criteria,0.9991046505503766,0.8365676256609603,1.0
+Random Oversampling with StratifiedKFold CV ,Random Forest,0.999490879724724,0.9402726639430898,0.01
+Random Oversampling with StratifiedKFold CV ,XGBoost,0.9961377082565264,0.9830840290321851,0.17126885056495667
+SMOTE Oversampling with StratifiedKFold CV ,Logistic Regression with L2 Regularisation,0.9835325924755535,0.9745824819912665,0.3939639649309754
+SMOTE Oversampling with StratifiedKFold CV ,Logistic Regression with L1 Regularisation,0.9982795245869981,0.5,1.5
+SMOTE Oversampling with StratifiedKFold CV ,KNN,0.9946805709169432,0.8602674455287628,0.6
+SMOTE Oversampling with StratifiedKFold CV ,Tree Model with gini criteria,0.9977528484401608,0.8511703029874526,1.0
+SMOTE Oversampling with StratifiedKFold CV ,Tree Model with entropy criteria,0.9969803900914661,0.8558766559223799,1.0
+SMOTE Oversampling with StratifiedKFold CV ,Random Forest,0.999490879724724,0.9614705879186172,0.05
+SMOTE Oversampling with StratifiedKFold CV ,XGBoost,0.9934165481645336,0.9763188429619778,0.27664539217948914
+ADASYN Oversampling with StratifiedKFold CV ,Logistic Regression with L2 Regularisation,0.9580414669686277,0.9740277114310192,0.6115574197802307
+ADASYN Oversampling with StratifiedKFold CV ,Logistic Regression with L1 Regularisation,0.9982795245869981,0.5,1.5
+ADASYN Oversampling with StratifiedKFold CV ,KNN,0.9945050122013307,0.8601937811862167,0.6
+ADASYN Oversampling with StratifiedKFold CV ,Tree Model with gini criteria,0.9979459630273345,0.8258007879303172,1.0
+ADASYN Oversampling with StratifiedKFold CV ,Tree Model with entropy criteria,0.9954179175225154,0.8500008254713172,1.0
+ADASYN Oversampling with StratifiedKFold CV ,Random Forest,0.9995259914678464,0.9632269575962563,0.03
+ADASYN Oversampling with StratifiedKFold CV ,XGBoost,0.9858675233931988,0.9783021275267049,0.5225471258163452
